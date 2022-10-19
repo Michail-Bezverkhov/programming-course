@@ -19,7 +19,7 @@ img {
 }
 
 body {
-  font-family: 'font', sans-serif;
+  font-family: Arial, Verdana, sans-serif;
 }
 
 .main-content {
@@ -50,10 +50,38 @@ body {
   display: inline-block;
 
   padding: 24px 49px;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  background-color: #3f2aff;
+}
+
+.download-link {
+  padding: 0 0 0 25px;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  color: #3f2aff;
+
+  background-image: url("../img/download.png");
+
+  background-position: left center;
+
+  background-size: 20px 20px;
+
+  background-repeat: no-repeat;
 }
 
 .link:not(:last-child) {
   margin-right: 25px;
+}
+
+::marker {
+  color: blue;
 }
 
 .container {
@@ -64,8 +92,18 @@ body {
   width: 1170px;
 }
 
+
+
 .h1 {
   margin: 0 0 40px;
+
+  font-weight: 400;
+
+  font-size: 60px;
+
+  line-height: 60px;
+
+  color: #333;
 }
 
 .h2,
@@ -73,10 +111,52 @@ body {
   margin: 0 0 10px;
 }
 
+.h2 {
+  font-size: 40px;
+
+  line-height: 46px;
+
+  color: #333;
+}
+
+.h3 {
+  font-weight: 400;
+
+  font-size: 30px;
+
+  line-height: 34px;
+
+  color: #333;
+}
+
 .paragraph {
   width: 872px;
 
   margin: 0 0 40px;
+
+  font-size: 20px;
+
+  font-weight: 400;
+
+  line-height: 32px;
+
+  color: #333;
+}
+
+.slogan {
+  border-radius: 20px;
+
+  padding: 50px 95px;
+
+  width: 100%;
+
+  font-weight: 700;
+
+  font-size: 30px;
+
+  color: white;
+
+  background-color: #3f2aff;
 }
 
 .list {
@@ -87,12 +167,28 @@ body {
   margin: 0 0 20px;
 }
 
+.text-link {
+  border-bottom: 1px solid #3f2aff;
+
+  font-size: 20px;
+
+  color: #3f2aff;
+}
+
+.top-desc-bg {
+  background-image: url(../img/decorate-1.png);
+}
+
 .desc {
   border-radius: 20px;
 
   padding: 30px;
 
   background-color: #f3f3f3;
+
+  background-position: right;
+
+  background-repeat: no-repeat;
 }
 
 .desc:not(:last-child) {
@@ -101,7 +197,12 @@ body {
 
 .desc .paragraph {
   width: 692px;
+
   margin: 0 0 10px;
+}
+
+.bottom-desc-bg {
+  background-image: url(../img/decorate-2.png);
 }
 
 .img {
@@ -110,14 +211,26 @@ body {
 
 .figure {
   margin: 0;
+
+  font-size: 0;
 }
 
 .fig-caption {
   display: inline-block;
 
-  width: 872;
+  width: 872px;
 
   margin: 0 0 40px;
+
+  padding: 19px 0;
+
+  border: 1px solid #b6b6b6;
+
+  border-top: none;
+
+  font-weight: 400;
+
+  font-size: 14px;
+
+  text-align: center;
 }
-
-
