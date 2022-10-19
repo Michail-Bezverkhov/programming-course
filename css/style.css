@@ -234,3 +234,217 @@ body {
 
   text-align: center;
 }
+
+.Content-modules {
+  margin: 0 auto;
+  width: 1170px;
+  padding: 50px 0;
+}
+
+.logo-skillbox-modules {
+  display: block;
+
+  margin: 0 0 25px 0;
+}
+
+.link-back {
+  display: inline-block;
+
+  margin: 0 0 25px 0;
+
+  padding: 0 0 0 52px;
+
+  font-family: Arial;
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  line-height: 23px;
+
+  color: #3F2AFF;
+
+  background-image: url('../img/arrow1.svg');
+
+  background-position: left;
+
+  background-repeat: no-repeat;
+
+
+}
+
+.h1-modules {
+  margin: 0 0 50px 0;
+
+  font-family: Arial;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 60px;
+
+  line-height: 69px;
+
+  color: #3F2AFF;
+}
+
+.h2-modules {
+  margin: 0;
+
+  font-family: Arial;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 40px;
+
+  line-height: 46px;
+
+  color: #3F2AFF;
+}
+
+.modules-list {
+  margin: 0 0 50px 0;
+
+  font-size: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+.modules-list-item {
+  position: relative;
+
+  display: inline-block;
+
+  margin: 0 25px 25px 0;
+
+  padding: 205px 25px 25px 25px;
+
+  width: 572px;
+
+  min-height: 505px;
+
+  vertical-align: top;
+
+  font-size: 0;
+
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.modules-list-item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.modules-list-item:before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 180px;
+
+  background-size: cover;
+}
+
+.li-image1:before {
+  background-image: url('../img/item1.jpg');
+
+}
+
+.li-image2:before {
+  background-image: url('../img/item2.jpg');
+
+}
+
+.li-image3:before {
+  background-image: url('../img/item3.jpg');
+
+}
+
+.li-image4:before {
+  background-image: url('../img/item4.jpg');
+
+}
+
+.ul-in-list {
+  padding: 0;
+}
+
+.li-in-list {
+  margin: 0;
+
+  list-style: none;
+
+  font-family: 'Arial';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  line-height: 165%;
+
+  color: #333333;
+}
+
+.page-numb {
+  position: absolute;
+
+  bottom: 25px;
+
+  right: 25px;
+
+  margin: 0;
+
+  font-family: Arial;
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-size: 40px;
+
+  line-height: 46px;
+
+  color: #EAEAEA;
+}
+
+.center-link {
+  text-align: center;
+}
+
+.link-more {
+  display: inline-block;
+
+  padding: 25px 75px;
+
+  border: 2px solid #3F2AFF;
+
+  font-family: Arial;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #3F2AFF;
+
+}
